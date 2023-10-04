@@ -10,3 +10,17 @@
   padding: 0.28rem 0.65rem;
   font-size: 13px;
 }
+
+.note-popover {
+  position: absolute;
+  transform: translate(0, var(--bs-popover-arraw-height, 0.5rem));
+}
+
+.note-popover .popover-arrow {
+  position: absolute;
+  left: 1rem;
+}
+
+.note-popover-content {
+  padding: 5px;
+}
